@@ -10,7 +10,7 @@ with open("C:\\Users\Admin\Desktop\input\\emp_data.txt.txt","r") as fp:
         s=f'Salary of {name} will be {sal+sal*(hike/100)}'
 
         l1.append(s)
-#writing data into file
+
 with open(f"C:\\Users\Admin\Desktop\input\\slary.txt",'w') as fp:
     fp.writelines(l1)
 
